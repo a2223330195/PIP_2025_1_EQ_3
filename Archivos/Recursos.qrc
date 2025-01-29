@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>1.jpeg</file>
+    <file>2.jpeg</file>
+    <file>3.jpeg</file>
+  </qresource>
+</RCC>
