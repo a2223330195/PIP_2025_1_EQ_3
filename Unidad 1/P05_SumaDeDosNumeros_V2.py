@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P04_SumaDeLosNumeros.ui"
+qtCreatorFile = "P05_SumaDeDosNumeros_V2.ui"
 Ui_MainWindows, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindows):
@@ -16,7 +16,8 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindows):
         num1 = float(self.txt_a.text())
         num2 = float(self.txt_b.text())
         sum = num1 + num2
-        self.msj("La suma de los numeros es : " + str(sum))
+       # self.msj("La suma de los numeros es : " + str(sum))
+        self.txt_resultado.setText(str(sum))
     def msj(self, txt):
         m = QtWidgets.QMessageBox()
         m.setText(txt)
