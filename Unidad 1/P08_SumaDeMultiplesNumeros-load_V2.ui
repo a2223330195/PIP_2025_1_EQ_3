@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>824</width>
+    <height>763</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,8 +21,8 @@ background-color: rgb(201, 255, 203);</string>
    <widget class="QPushButton" name="btn_agregar">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>280</y>
+      <x>460</x>
+      <y>360</y>
       <width>281</width>
       <height>141</height>
      </rect>
@@ -58,7 +58,9 @@ border: 3px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 30px;
+border: 3px solid black;</string>
     </property>
     <property name="text">
      <string/>
@@ -72,7 +74,7 @@ border: 3px solid black;</string>
      <rect>
       <x>80</x>
       <y>140</y>
-      <width>171</width>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
@@ -132,8 +134,8 @@ border: 3px solid black;</string>
    <widget class="QPushButton" name="btn_guardar">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>460</y>
+      <x>460</x>
+      <y>560</y>
       <width>281</width>
       <height>141</height>
      </rect>
@@ -182,15 +184,15 @@ border: 3px solid black;</string>
    <widget class="QTextEdit" name="txt_lista_numeros">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>110</y>
-      <width>261</width>
-      <height>87</height>
+      <x>350</x>
+      <y>206</y>
+      <width>461</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>30</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -202,8 +204,8 @@ border: 3px solid black;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>30</y>
+      <x>390</x>
+      <y>140</y>
       <width>411</width>
       <height>41</height>
      </rect>
@@ -223,7 +225,7 @@ border: 3px solid black;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>824</width>
      <height>26</height>
     </rect>
    </property>

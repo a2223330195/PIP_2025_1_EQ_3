@@ -14,10 +14,10 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(230, 212, 255);</string>
+   <string notr="true">background-color: rgb(157, 255, 210);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="txt_hora">
+   <widget class="QLineEdit" name="txt_numero">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -32,7 +32,9 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 30px;
+border: 3px solid black;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -41,8 +43,8 @@
    <widget class="QPushButton" name="btn_calcular">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>197</y>
+      <x>170</x>
+      <y>200</y>
       <width>461</width>
       <height>61</height>
      </rect>
@@ -54,13 +56,14 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);
-border-color: rgb(0, 0, 0);</string>
+border-radius: 30px;
+border: 3px solid black;</string>
     </property>
     <property name="text">
-     <string>calcular horas restantes</string>
+     <string>Calcular Factorial</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txt_res">
+   <widget class="QLineEdit" name="txt_resultado">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -75,7 +78,9 @@ border-color: rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 30px;
+border: 3px solid black;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -84,7 +89,7 @@ border-color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>180</x>
       <y>60</y>
       <width>431</width>
       <height>61</height>
@@ -96,10 +101,12 @@ border-color: rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 30px;
+border: 3px solid black;</string>
     </property>
     <property name="text">
-     <string>Ingrese la hora</string>
+     <string>Factorial</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
