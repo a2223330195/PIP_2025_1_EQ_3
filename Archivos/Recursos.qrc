@@ -4,4 +4,11 @@
     <file>2.jpeg</file>
     <file>3.jpeg</file>
   </qresource>
+  <qresource prefix="UAT LOGOS">
+    <file>Logo UAT.png</file>
+    <file>logo facultad de ingenieria uat.png</file>
+  </qresource>
+  <qresource prefix="Equipo LOGO">
+    <file>logo equipo 3.jpg</file>
+  </qresource>
 </RCC>
