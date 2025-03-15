@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>01.jpeg</file>
+    <file>02.jpeg</file>
+    <file>03.jpeg</file>
+    <file>04.jpeg</file>
+    <file>05.JPEG</file>
+    <file>06.JPEG</file>
+    <file>07.JPEG</file>
+    <file>08.JPEG</file>
+    <file>09.JPEG</file>
+    <file>10.jpeg</file>
+    <file>logo equipo 3.jpg</file>
+    <file>logo facultad de ingenieria uat.png</file>
+    <file>Logo UAT.png</file>
+    <file>foto perrito.jpeg</file>
+    <file>993971.png</file>
+    <file>993966.png</file>
+  </qresource>
+  <qresource prefix="Programas"/>
+</RCC>
