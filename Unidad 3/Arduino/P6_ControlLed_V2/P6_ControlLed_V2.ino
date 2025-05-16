@@ -8,6 +8,4 @@ void loop() {
   digitalWrite(led,0);
   delay(200);
 
-  
-
 }

@@ -29,7 +29,7 @@ class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
         polinomio = polinomio.replace("^", "**") #Ej: 2x**2+3x+4
 
         #tabular valores de x con base en los cuales pueda obtener los valores de y
-        X = [i for i in range(self.limite["x"][0], self.limite["x"[1]])] #lista de comprension
+        X = [i for i in range(self.limite["x"][0], self.limite["x"][1])] #lista de comprension
         print("Valores de X: ")
         print(X)
 
